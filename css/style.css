@@ -539,6 +539,7 @@ section.venda{
 
 
 .vitrine-venda{
+	overflow: hidden;
 	float: left;
 	width: 70%;
 }
@@ -625,6 +626,26 @@ section.venda{
 
 	.w50{
 		width: 100%;
+	}
+
+	.search1{
+		display: inline-block;
+	}
+
+	.search2{
+		text-align: left;
+		display: inline-block;
+	}
+
+	.sidebar{
+		width: 100%;
+		text-align: center;
+	}
+
+	.vitrine-venda{
+		float: left;
+		width: 100%;
+		text-align: center;
 	}
 
 
