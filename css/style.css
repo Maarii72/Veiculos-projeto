@@ -554,7 +554,7 @@ section.venda{
 /**veiculo-teste**/
 
 section.venda-single .container{
-	padding: 40px 40px;
+	padding: 40px 0 0 0;
 	text-align: center;
 	max-width: 1280px;
 }
@@ -575,7 +575,7 @@ section.venda-single .container{
 .descricao-veiculo{
 	vertical-align: top;
 	display: inline-block;
-	padding: 20px;
+	padding:60px 20px;
 	text-align: left;
 }
 
@@ -610,19 +610,24 @@ section.venda-single{
 
 }
 
-.mini-img{
-	cursor: pointer;
+.mini-img-wraper{
 	float: left;
-	background-position: center;
-	border: 7px solid white;
-	background-size: cover;
-	padding-top: calc(33.3% * (100/200) * 0.4);
+	padding: 9px;
 	width: calc(33.3% * (100/200));
+}
+
+.mini-img{
+	background-position: center;
+	width: 100%;
+	cursor: pointer;
+	padding-top:70%;
+	background-size: cover;
+	
 }
 
 .arrow-left-nav{
 	position: absolute;
-	left: 8px;
+	left: -20px;
 	top: 50%;
 	cursor: pointer;
 	transform: translateY(-50%);
@@ -635,7 +640,7 @@ section.venda-single{
 
 .arrow-right-nav{
 	position: absolute;
-	right: 8px;
+	right: -20px;
 	top: 50%;
 	cursor: pointer;
 	transform: translateY(-50%);
@@ -644,6 +649,24 @@ section.venda-single{
 	background-size: 100% 100%;
 	width: 22px;
 	height: 22px;
+}
+
+.info-bread{
+	padding: 20px 0;
+	text-align: left;
+}
+
+.info-bread a{
+	text-decoration: none;
+	color: black;
+}
+
+.info-bread span{
+	padding: 0 30px;
+}
+
+.info-bread a:last-child{
+	color: red;
 }
 
 /**reponsivo**/
@@ -743,6 +766,23 @@ section.venda-single{
 		float: left;
 		width: 100%;
 		text-align: center;
+	}
+
+	.info-veiculo{
+		width: 100%;
+	}
+
+	.descricao-veiculo{
+		padding: 20px 0;
+		text-align: center;
+	}
+
+	.descricao-veiculo a{
+		display: inline-block;
+	}
+
+	.descricao-veiculo p{
+		max-width: none;
 	}
 
 
