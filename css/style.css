@@ -697,6 +697,7 @@ section.sobre .descricao-autor{
 }
 
 .descricao-autor p{
+	line-height: 28px;
 	font-size: 16px;
 	margin-top: 10px;
 }
@@ -709,6 +710,9 @@ section.sobre .descricao-autor{
 	width: 30%;
 	padding-top: 30%;
 	float: left;
+	background-position: center;
+	background-image: url();
+	background-size: contain;
 	background-color: rgb(220,220,220);
 }
 
