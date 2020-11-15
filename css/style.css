@@ -65,6 +65,10 @@ nav.mobile{
 
 }
 
+nav.mobile:hover ul{
+	display: block;
+}
+
 nav.mobile ul{
 	display: none;
 	width: 100%;
@@ -84,10 +88,12 @@ nav.mobile li{
 	font-style: italic;
 }
 
+
 nav.mobile li a{
 	color: black;
 	text-decoration: none;
 }
+
 
 /*fim menu*/
 
@@ -738,6 +744,14 @@ section.sobre .descricao-autor{
 		display: block;
 		margin-left: 0;
 		margin-top: 15px;
+	}
+
+	nav.desktop{
+	display:none;
+	}
+
+	nav.mobile{
+	display: block;
 	}
 }
 @media screen and (max-width: 950px){
